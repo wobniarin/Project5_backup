@@ -58,11 +58,11 @@ All these questions are of interests when dealing with the integration of renewa
 
 In order to answer the questions presented above, as well as to prove the hypotheses, data has been retrieved. The datasets used in this project have been taken from different sources such as Kaggle, London Data Store and Dark Sky API, covering the time period between 2011 and 2014. The dataset structure is defined below: 
 
-- Smart Meters' measurements: This data comes from London Data Store. It has been downloaded directly from the London Data Store. This dataset can be in two different formats. It contains more than 167 million of rows and a total size of 11,5 GB. For this reason, the entire dataset has been split into blocks, so as to be able to read and analyse with a normal computer. [Link to the dataset.](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)  
+- **Smart Meters' measurements:** This data comes from London Data Store. It has been downloaded directly from the London Data Store. This dataset can be in two different formats. It contains more than 167 million of rows and a total size of 11,5 GB. For this reason, the entire dataset has been split into blocks, so as to be able to read and analyse with a normal computer. [Link to the dataset.](https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)  
 
-- Weather historical data: This dataset has been extracted from Kaggle.com, on which the user Jean-Michel D. has complemented the Smart Meters Data with weather data in the same time period. This weather data has been retrieved from Dark Sky API and has been uploaded to Kaggle.  [Link to the dataset.](https://www.kaggle.com/jeanmidev/smart-meters-in-london)  
+- **Weather historical data:** This dataset has been extracted from Kaggle.com, on which the user Jean-Michel D. has complemented the Smart Meters Data with weather data in the same time period. This weather data has been retrieved from Dark Sky API and has been uploaded to Kaggle.  [Link to the dataset.](https://www.kaggle.com/jeanmidev/smart-meters-in-london)  
 
-- Accorn Classification: The end-users classification is considered for each end-user according to their smart meter's measurements. The data comes also from London Data Store, but the explanation can be found in the link below and also to the CACI Report, a company specialist in providing Integrated Marketing, Location Planning Consultancy, Network Services and Technology Solutions. [Link to the CACI Report](https://acorn.caci.co.uk/downloads/Acorn-User-guide.pdf) 
+- **Accorn Classification:** The end-users classification is considered for each end-user according to their smart meter's measurements. The data comes also from London Data Store, but the explanation can be found in the link below and also to the CACI Report, a company specialist in providing Integrated Marketing, Location Planning Consultancy, Network Services and Technology Solutions. [Link to the CACI Report](https://acorn.caci.co.uk/downloads/Acorn-User-guide.pdf) 
 
 
 
@@ -109,12 +109,12 @@ How will you test the success of our analysis or algorithm?
 ## 10. Organization
 Two main tools have been used to organize the project. Trello is a very useful tool to organize and manage all the tasks of the project. Github has been the second tool usd to mantain good practises when coding, being able to have a control of versions and upload all the project to the cloud. Last but not least, in order to understand the project, the Repository has been structured in folders as follows: 
 
-0. Data:
-    raw_data → Folder containing the raw data csv files coming from the resources mentioned in Section 3. 
-    cleaned_data → Folder containgin the cleaned csv files obtained from *0_Data_Cleaning.ypnb* and  that will be used in the *1_Data_Analysis_ML_Model.ypnb* notebook.
-1. Jupyter Notebooks: 
-    0_Data_Cleaning.ypnb → 
-    1_Data_Analysis_ML_Model.ypnb → 
+0. **Data:**
+    *raw_data* → Folder containing the raw data csv files coming from the resources mentioned in Section 3. 
+    *cleaned_data* → Folder containgin the cleaned csv files obtained from *0_Data_Cleaning.ypnb* and  that will be used in the *1_Data_Analysis_ML_Model.ypnb* notebook.
+1. **Jupyter Notebooks:**
+    *0_Data_Cleaning.ypnb* → 
+    *1_Data_Analysis_ML_Model.ypnb* → 
 2. Resources: Folder with all the pdf's containing useful information related to the topic of study in this project. 
 
 3. Figures: Folder containing all the .png figures used for the presentation. 
